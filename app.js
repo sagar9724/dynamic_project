@@ -6,7 +6,7 @@ const path = require("path");
 const { urlencoded } = require("body-parser");
 
 const app = express();
-const port = 80;
+const port = process.env.PORT || 4000;
 app.use(express.urlencoded({extended:true}))
 app.use("./static", express.static("./static"));
 app.set("view engine", "pug");
