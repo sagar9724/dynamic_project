@@ -4,8 +4,7 @@
   "description": "This is the first dynamic website of mine.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "npm start":"node app.js"
+    "start":"node app.js"
   },
   "author": "Sagar",
   "license": "ISC",
