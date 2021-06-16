@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar {
+  padding: 10px;
+  border: 1px solid black;
+  position: sticky;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+#mainSection {
+  width: 100%;
+  height: 97vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+}
+
+#mainSection::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.wallpapersafari.com/82/29/7m5XqY.png");
+  background-size: 100% 100%;
+  display: block;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+#mainSection a {
+  text-decoration: none;
+  background:azure;
+  border-radius: 10px;
+  padding:10px;
+  color:black;
+  margin-top:300px;
+}
